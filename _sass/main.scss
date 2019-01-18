@@ -1,3 +1,55 @@
-.current {
-  color: green;
+// Variables
+$darkblue: darkblue;
+$blue: blue;
+$lightblue: lighten($darkblue, 50%);
+$darkerblue: darken($darkblue, 20%);
+$gold: gold;
+$darkgold: darken($gold, 10%);
+$yellow: lighten($gold, 10%);
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box
+}
+
+html {
+  font-size: 62.5%;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background: $darkerblue;
+  max-width: 100%;
+  font-size: 1.6rem;
+}
+
+main {
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 400;
+  padding: 1rem;
+}
+
+main a {
+  color: $gold;
+}
+
+h1 {
+  color: $gold;
+  display: block;
+  font-size: 4rem;
+  text-align: center;
+}
+
+h2 {
+  border-bottom: 4px solid $yellow;
+  color: $darkgold;
+  font-size: 3.5rem;
+  margin: 1rem 0;
+}
+
+ul {
+  padding: 1rem 3rem;
 }

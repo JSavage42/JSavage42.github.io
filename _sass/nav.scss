@@ -1,0 +1,44 @@
+nav a {
+  background: $darkblue;
+  color: $gold;
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+nav a:visited {
+  color: $gold;
+}
+
+nav a:hover {
+  color: $darkgold;
+  text-decoration: underline;
+}
+
+nav a.current {
+  background: $darkerblue;
+  border: 3px inset #fff;
+  color: #fff;
+}
+
+@media (min-width: 400px) {
+  nav {
+    align-content: center;
+    display: flex;
+    background: $darkblue;
+    width: 100%;
+  }
+
+  nav a {
+    display: inline;
+  }
+
+  nav a:hover {
+    background: $darkerblue;
+    color: #fff;
+  }
+}
