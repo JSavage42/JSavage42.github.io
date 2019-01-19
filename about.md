@@ -7,5 +7,3 @@ title: about
 
 I am a current full-time student in the Bachelor of Science in Information Technology (BSIT) program at the University of Kansas -- Edwards Campus in Overland Park, KS. I am very interested in IT in general and specifically Web Development, Database and Systems Administration. I am a father of two very beautiful daughters and am a stay-at-home dad when I am not at school. I spent 6 years in the military prior to starting college and it has been a
 great adventure learning and getting back to a non-military life. I am looking for potential career opportunities and am forever seeking more knowledge of Information Technology and the world around us.
-
-{% include education.html %}

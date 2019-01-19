@@ -2,5 +2,9 @@
   link: /
 - name: About
   link: /about.html
+- name: Resume
+  link: /resume.html
+- name: Education
+  link: /education.html
 - name: Projects
   link: /projects.html

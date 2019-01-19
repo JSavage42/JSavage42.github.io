@@ -1,16 +1,16 @@
 // Variables
-$darkblue: darkblue;
-$blue: blue;
-$lightblue: lighten($darkblue, 50%);
-$darkerblue: darken($darkblue, 20%);
-$gold: gold;
-$darkgold: darken($gold, 10%);
-$yellow: lighten($gold, 10%);
+$darkblue: #090057;
+$blue: #192192;
+$lightblue: #1a1aa7;
+$darkerblue: #10162e;
+$gold: #866e30;
+$yellow: #ce9b19;
+$lightgold: lighten($yellow, 20%);
 
-*{
-  padding:0;
-  margin:0;
-  box-sizing:border-box
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -22,7 +22,7 @@ html {
 body {
   background: $darkerblue;
   max-width: 100%;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 main {
@@ -33,19 +33,24 @@ main {
 }
 
 main a {
-  color: $gold;
+  color: $yellow;
+}
+
+p {
+  margin: 1rem 0;
+  font-size: 2rem;
 }
 
 h1 {
-  color: $gold;
+  color: $yellow;
   display: block;
   font-size: 4rem;
   text-align: center;
 }
 
 h2 {
-  border-bottom: 4px solid $yellow;
-  color: $darkgold;
+  border-bottom: 4px solid $gold;
+  color: $yellow;
   font-size: 3.5rem;
   margin: 1rem 0;
 }
