@@ -20,16 +20,33 @@ html {
 }
 
 body {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "nav";
+  grid-template-rows: 5rem auto 5rem;
   background: $darkerblue;
   max-width: 100%;
   font-size: 1.8rem;
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
 }
 
 main {
   color: #fff;
   font-size: 1.75rem;
   font-weight: 400;
+  grid-area: main;
   padding: 1rem;
+  overflow: scroll;
+  height: 50rem;
 }
 
 main a {
@@ -57,4 +74,13 @@ h2 {
 
 ul {
   padding: 1rem 3rem;
+}
+
+@media (min-width: 600px) {
+  body {
+    grid-template-areas:
+      "header header header"
+      "nav nav nav"
+      "main main main";
+  }
 }
