@@ -11,7 +11,7 @@ title: Projects
 - For a Course at KU I made a BMI calculator using [Javascript](http://jason-savage.com/bmi/bmi.html) and then converted it to using [PHP](http://jason-savage.com/bmi/bmi.php).
 - [The University of Kansas Information Security Club's Website](https://github.com/JSavage42/kuisc).
 
-### React
+## React
 
 - [QuestionAir](https://github.com/JSavage42/questionair). A project for a professor to create tests and host tests and allow students to take them. Currently in development.
 - [HAWKU](https://github.com/JSavage42/hawkufire). Senior Capstone Project for The University of Kansas. HAWKU stands for Handy Anomaly Widget for KU. Currently in pre-alpha development.
