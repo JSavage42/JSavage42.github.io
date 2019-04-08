@@ -8,7 +8,7 @@ title: Projects
 ## HTML/CSS/JS
 
 - I created this website by hand typed (in VS Code) Markdown, HTML, CSS, and Jekyll.
-- For a Course at KU I made a BMI calculator using [Javascript](http://jason-savage.com/bmi/bmi.html) and then converted it to using [PHP](http://jason-savage.com/bmi/bmi.php).
+- For a Course at KU I made a BMI calculator using [Javascript](http://jason-savage.com/bmi/bmi.html) and then converted it to [PHP](http://jason-savage.com/bmi/bmi.php).
 - [The University of Kansas Information Security Club's Website](https://github.com/JSavage42/kuisc).
 
 ## React
