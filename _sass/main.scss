@@ -1,11 +1,55 @@
-// Variables
-$darkblue: #090057;
-$blue: #192192;
-$lightblue: #1a1aa7;
-$darkerblue: #10162e;
-$gold: #866e30;
-$yellow: #ce9b19;
-$lightgold: lighten($yellow, 20%);
+// *** Variables
+
+// *** Sizing
+$tiny: 0.5rem;
+$small: 1rem;
+$medium: 2rem;
+$large: 3rem;
+$huge: 4rem;
+$gigantic: 5rem;
+
+// *** Body
+$body-background: #f0f0f0;
+
+// *** Navigation
+$nav-background: #fff;
+$nav-background--small: #fff;
+$nav-a-background: #fff;
+$nav-a-background--hover: #f0f0f0;
+$nav-a-background--current: #f0f0f0;
+$nav-a-border--current: 3px inset #fff;
+$nav-a-color: #000;
+$nav-a-color--visited: #000;
+$nav-a-color--hover: #000;
+$nav-a-color--current: #000;
+
+// *** Main
+$main-color: #000;
+$main-a-color: #000;
+
+// *** Headings
+$h1-color: #000;
+$h1-size: $gigantic;
+$h1-size--small: $large;
+$h2-color: #000;
+$h2-border: 5px solid #000;
+$h2-size: $huge;
+$h2-size--small: $medium;
+$h3-color: #000;
+$h3-size: $large;
+$h3-size--small: $small;
+$h4-color: #000;
+$h4-size: $medium;
+$h4-size--small: $tiny;
+$h5-color: #000;
+$h5-size: $small;
+$h6-color: #000;
+$h6-size: $tiny;
+
+// *** Resume
+$resume-h2-color: #000;
+
+// *** Fonts
 
 * {
   padding: 0;
@@ -26,7 +70,7 @@ body {
     "nav"
     "main";
   grid-template-rows: 5rem auto 5rem;
-  background: $darkerblue;
+  background: $body-background;
   max-width: 100%;
   font-size: 1.8rem;
 }
@@ -41,14 +85,14 @@ nav {
 
 main {
   grid-area: main;
-  color: #fff;
-  font-size: 1.75rem;
+  color: $main-color;
+  font-size: 1.5rem;
   font-weight: 400;
   padding: 1rem;
-}
 
-main a {
-  color: $yellow;
+  a {
+    color: $main-a-color;
+  }
 }
 
 p {
@@ -57,16 +101,16 @@ p {
 }
 
 h1 {
-  color: $yellow;
+  color: $h1-color;
   display: block;
-  font-size: 3rem;
+  font-size: $h1-size;
   text-align: center;
 }
 
 h2 {
-  border-bottom: 4px solid $gold;
-  color: $yellow;
-  font-size: 2.5rem;
+  border-bottom: $h2-border;
+  color: $h2-color;
+  font-size: $h2-size;
   margin: 1rem 0;
 }
 
@@ -83,9 +127,9 @@ ul {
   }
 
   h1 {
-    font-size: 4rem;
+    font-size: $h1-size--small;
   }
   h2 {
-    font-size: 3.5rem;
+    font-size: $h2-size--small;
   }
 }

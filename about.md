@@ -3,7 +3,7 @@ layout: default
 title: about
 ---
 
-# A Little Bit About Me
+## A Little Bit About Me
 
 I am a current full-time student in the Bachelor of Science in Information Technology (BSIT) program at the University of Kansas -- Edwards Campus in Overland Park, KS. I am very interested in IT in general and specifically Web Development, Database and Systems Administration.
 

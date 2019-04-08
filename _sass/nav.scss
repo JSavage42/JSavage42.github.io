@@ -1,50 +1,50 @@
 nav {
   display: flex;
-  background: $darkblue;
+  background: $nav-background;
   flex-direction: column;
   width: 100%;
   justify-content: space-evenly;
-}
 
-nav a {
-  background: $darkblue;
-  color: $yellow;
-  font-size: 1.6rem;
-  font-weight: 700;
-  padding: 1rem 0;
-  text-align: center;
-  text-decoration: none;
-  width: 100%;
-}
+  a {
+    background: $nav-a-background;
+    color: $nav-a-color;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 1rem 0;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
 
-nav a:visited {
-  color: $yellow;
-}
+    &:visited {
+      color: $nav-a-color--visited;
+    }
 
-nav a:hover {
-  background: $darkerblue;
-  color: #fff;
-  text-decoration: underline;
-}
+    &:hover {
+      background: $nav-a-background--hover;
+      color: $nav-a-color--hover;
+      text-decoration: underline;
+    }
 
-nav a.current {
-  background: $darkerblue;
-  border: 3px inset #fff;
-  color: #fff;
+    &.current {
+      background: $nav-a-background--current;
+      border: $nav-a-border--current;
+      color: $nav-a-color--current;
+    }
+  }
 }
 
 @media (min-width: 600px) {
   nav {
     display: flex;
     flex-direction: row;
-    background: $darkblue;
+    background: $nav-background--small;
     width: 100%;
-  }
 
-  nav a {
-    display: inline;
-    font-size: 2rem;
-    font-weight: 700;
-    padding: 1rem 0;
+    a {
+      display: inline;
+      font-size: 2rem;
+      font-weight: 700;
+      padding: 1rem 0;
+    }
   }
 }
